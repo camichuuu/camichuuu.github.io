@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Imperial+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(149, 217, 146);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    
+    
+
+}
+
+footer {
+background: rgb(149, 217, 146);
+color: #0a0909;
+padding: 30px;
+text-align: left;
+font-family:"DM Serif Display", serif ;
+font-size: 1.8rem;
+height: 200px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Imperial Script", cursive;
+    font-size: 3rem;
+    color: #0a0909;
+    
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.main-nav {
+    background-color: rgb(119, 149, 119);
+    padding: 1rem;
+}
+
+.main-nav ul { 
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 80px;
+padding: 0;
+margin: 0;
+}
+
+.main-nav li a {
+    
+    background-color: rgb(176, 225, 195);
+    color: rgb(6, 6, 6);
+    border: 2px solid #fff9f9;
+    font-weight: bold;
+    
+}
+
+.main-content {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.content-box {
+    flex: 1 1 400px;
+    background-color: antiquewhite;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+main .content ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+
+}
+
+.content-box .text {
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+
+.content-box img.content-image {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.left-box {
+    flex-direction: column;
+}
+
+.right-box {
+    flex-direction: column-reverse;
+}
+
+.content-box h2 {
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+}
+
